@@ -1,0 +1,178 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section */
+.home-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.home-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #eee;
+}
+
+/* About Section */
+.about-section {
+    padding: 100px 0;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Services Section */
+.services-section {
+    padding: 100px 0;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 100px 0;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+/* Colors */
+:root {
+    --primary-color: #041E42; /* Updated primary color */
+    --secondary-color: #FF6F61; /* Updated secondary color for better contrast */
+    --text-color: #333;
+}
+
+/* Home Section */
+.home-section {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home-section h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #E71D36; /* Adjusted hover background color for better contrast */
+}
+
